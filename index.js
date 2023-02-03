@@ -474,7 +474,7 @@ let a = false;
 const audio = new Audio();
 const handleMusic = () => {
   a = !a;
-  audio.src = "./music.mp3.mp3";
+  audio.src = "music.mp3.mp3";
   console.log(audioMusicIcon);
   if (a) {
     audioMusicIcon[0].classList.add("none");
